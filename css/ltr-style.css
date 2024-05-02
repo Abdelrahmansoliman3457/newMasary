@@ -1,0 +1,133 @@
+body {
+  direction: ltr;
+  text-align: left;
+}
+/* start header */
+.header {
+  left: 0;
+  right: unset;
+}
+.dot-spe {
+  left: 0;
+  right: unset;
+}
+.left-ico {
+  margin-right: 5px;
+  margin-left: 0px;
+}
+.footer-colomn-me li a:hover {
+  transform: translateX(10px);
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  padding-left: 12px;
+  padding-right: 0px;
+}
+.select2-container--default .select2-search--inline .select2-search__field {
+  left: 16px;
+  right: unset;
+  text-align: left;
+}
+.select2-container--default
+  .select2-selection--multiple
+  .select2-selection__choice__remove {
+  margin-left: 5px;
+  margin-right: 0;
+  right: 2px;
+  left: unset;
+}
+.select-personal .select2-container--default .select2-selection--single {
+  padding-left: 34px;
+  padding-right: 0px;
+}
+.select-personal.no-pad .select2-container--default .select2-selection--single {
+  padding-left: 6px;
+  padding-right: 0px;
+}
+.main-float {
+  right: 15px;
+  left: unset;
+}
+.done-copy {
+  right: 10px;
+  left: unset;
+}
+.main-input-cont h6::after {
+  right: -14px;
+  left: unset;
+}
+.main-input {
+  padding-left: 40px;
+  padding-right: 0px;
+}
+.float-ri {
+  left: 14px;
+  right: unset;
+}
+.float-title {
+  transform: translateX(-30px);
+}
+.flex-float {
+  transform: translateX(-30px);
+}
+.position-def {
+  left: 0;
+  right: unset;
+}
+.abs-num {
+  right: 15px;
+  left: unset;
+}
+.years-main {
+  margin-left: 10px;
+  margin-right: 0px;
+}
+.left-ico-head {
+  margin-left: 20px;
+  margin-right: 0px;
+}
+.my-drop-now {
+  left: 0px;
+  right: unset;
+}
+.my-drop-now2 {
+  left: 0px;
+  right: unset;
+}
+@media (max-width: 1024px) {
+  /* sidebar */
+  .links {
+    left: 0px;
+    right: unset;
+    transform: translateX(-100%);
+  }
+  .nav-layer {
+    left: 280px;
+    right: unset;
+
+    transform: translateX(550%);
+  }
+  .links li a:hover {
+    transform: translateX(-10px);
+  }
+  .slideto {
+    transform: translatex(0);
+  }
+}
+@media (max-width: 767px) {
+  .flex-float {
+    transform: translateX(-10px);
+  }
+}
+.fa-angle-left {
+  transform: rotate(180deg);
+}
+/*new */
+a.flex-app-go:hover {
+  transform: translateX(6px);
+}
+.center-border {
+  border-right: 1px solid var(--main);
+  border-left: none;
+}
