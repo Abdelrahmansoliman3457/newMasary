@@ -339,7 +339,7 @@ a:hover {
 }
 .left-img-land img {
   width: 100%;
-  height: 400px;
+  height: 440px;
   object-fit: contain;
 }
 .font-bold {
@@ -757,8 +757,6 @@ input::-webkit-inner-spin-button {
   font-size: 16px;
 }
 
-
-
 /*faqs*/
 .all-qestion {
   padding: 14px 20px;
@@ -913,14 +911,14 @@ input::-webkit-inner-spin-button {
   }
 }
 @media (max-width: 767px) {
-  .flex-app-go{
+  .flex-app-go {
     font-size: 15px;
     width: 185px;
   }
-  .landing-page .flex-bet-main{
+  .landing-page .flex-bet-main {
     flex-wrap: wrap;
   }
-  .center-border{
+  .center-border {
     border: none;
   }
   .header {
@@ -961,7 +959,13 @@ input::-webkit-inner-spin-button {
   .app-left {
     display: none;
   }
-  .download-now img{
+  .download-now img {
     width: 140px;
   }
+}
+.ico-img {
+  width: 24px;
+}
+.fa-address-card {
+  color: #000;
 }
