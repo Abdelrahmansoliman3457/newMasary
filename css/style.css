@@ -121,7 +121,7 @@ a:hover {
   right: 0;
   z-index: 999;
   background: transparent;
-  padding: 20px 0px;
+  padding: 8px 0px;
   transition: all 0.4s ease-in-out;
   background-color: var(--color-white);
 }
@@ -131,7 +131,7 @@ a:hover {
   justify-content: space-between;
 }
 .logo img {
-  width: 65px;
+  width: 85px;
 }
 .links {
   display: flex;
@@ -249,14 +249,14 @@ a:hover {
   animation: 1s progress-bar 0.6s infinite alternate ease-in-out;
 }
 .logo-co-p {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  background-color: var(--main);
+  /* background-color: var(--main); */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 10px;
 }
 .logo-co-p img {
   width: 100%;
@@ -907,7 +907,7 @@ input::-webkit-inner-spin-button {
     width: 100%;
   }
   .header {
-    padding: 20px 0px;
+    padding: 8px 0px;
   }
 }
 @media (max-width: 767px) {
